@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnovateTech Solutions</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+        }
+
+        header {
+            background: #1e3a8a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #2563eb;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px;
+            background: white;
+        }
+
+        .hero h1 {
+            color: #1e3a8a;
+            font-size: 40px;
+        }
+
+        .hero p {
+            color: #555;
+            font-size: 18px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .services {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            width: 280px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        footer {
+            background: #1e3a8a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>InnovateTech Solutions</h1>
+    <p>Empowering Startups with Smart Digital Solutions</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <a href="#">About</a>
+    <a href="#">Projects</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+    <h1>Build Your Business with Confidence</h1>
+    <p>
+        We help startups grow through web development, cloud solutions,
+        DevOps automation, and digital transformation.
+    </p>
+
+    <a href="#" class="btn">Get Started</a>
+</section>
+
+<section class="services">
+
+    <div class="card">
+        <h2>Web Development</h2>
+        <p>
+            Modern websites and web applications using the latest technologies.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Cloud Services</h2>
+        <p>
+            Deploy scalable applications on AWS, Azure, and Google Cloud.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>DevOps</h2>
+        <p>
+            CI/CD pipelines using Jenkins, Docker, Kubernetes, and GitHub.
+        </p>
+    </div>
+
+</section>
+
+<footer>
+    <p>&copy; 2026 InnovateTech Solutions. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
